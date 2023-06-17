@@ -6,8 +6,9 @@
   background-color: #7f37f0;
   color: white;
   border: 0;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 20px;
   padding: 21px 16px;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-weight: 600;
 }

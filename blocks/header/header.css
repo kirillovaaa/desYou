@@ -2,7 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1290px;
+  /* меняем это значение для responsive */
+  max-width: 280px;
   width: 100%;
   padding-top: 30px;
+}
+
+@media screen and (min-width: 1320px) {
+  .header {
+    max-width: 1290px;
+  }
 }

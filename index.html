@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youdes</title>
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="body">
@@ -18,31 +24,31 @@
       </div>
       <button class="header__button">Заказать дизайн</button>
     </header>
-    <main>
+    <main class="content">
       <!-- content block -->
-      <div class="content">
-        <div class="content__text">
-          <h1 class="content__title">
-            Оформление карточек товаров на маркетплейсах
-          </h1>
-          <p class="content__subtitle">
-            Youdes занимается разработкой современного дизайна, цель которого
-            выделить товар среди конкурентов и привлечь внимание новых клиентов.
-            Индивидуальная дизайн-концепция, качественная обработка фото товара,
-            внимание к мельчайшим деталям!
-          </p>
+      <div class="content__text">
+        <h1 class="content__title">
+          Оформление карточек товаров на маркетплейсах
+        </h1>
+        <p class="content__subtitle">
+          Youdes занимается разработкой современного дизайна, цель которого
+          выделить товар среди конкурентов и привлечь внимание новых клиентов.
+          Индивидуальная дизайн-концепция, качественная обработка фото товара,
+          внимание к мельчайшим деталям!
+        </p>
+      </div>
+
+      <div class="content__gallery">
+        <div class="content__buttons">
+          <button class="content__button-market">Wildberries</button>
+          <button class="content__button-market">Ozon</button>
+          <button class="content__button-return">
+            <img class="content__image-back" src="./images/back.svg" />
+            Вернуться
+          </button>
         </div>
-        <div class="content__gallery">
-          <div class="content__buttons">
-            <button class="content__button-market">Wildberries</button>
-            <button class="content__button-market">Ozon</button>
-            <button class="content__button-return">
-              <img class="content__image-back" src="./images/back.svg" />
-              Вернуться
-            </button>
-          </div>
-        </div>
-        <div class="content__scrolling-image">
+
+        <div class="content__images">
           <img class="content__image" src="" />
           <img class="content__image" src="" />
           <img class="content__image" src="" />
@@ -56,10 +62,10 @@
       </div>
     </main>
     <!-- footer block -->
-    <div class="footer">
-      <span class="footer__copyright">© 2023. Все права защищены</span>
-      <a class="footer__confidentiality" href="">Политика конфиденциальности</a>
-    </div>
+    <footer class="footer">
+      <span class="footer__text">© 2023. Все права защищены</span>
+      <a class="footer__text" href="">Политика конфиденциальности</a>
+    </footer>
     <script type="module" src="./scripts/script.js"></script>
   </body>
 </html>

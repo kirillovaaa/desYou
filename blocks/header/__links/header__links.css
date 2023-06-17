@@ -2,4 +2,6 @@
   display: flex;
   gap: 39px;
   margin-top: 20px;
+  letter-spacing: 2.4px;
+  font-weight: 500;
 }

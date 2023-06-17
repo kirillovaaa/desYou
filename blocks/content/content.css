@@ -1,7 +1,13 @@
 .content {
   display: flex;
-  margin: 134px 0;
   width: 100%;
-  max-width: 1290px;
+  /* меняем это значение для responsive */
+  max-width: 280px;
   gap: 119px;
+}
+
+@media screen and (min-width: 1320px) {
+  .content {
+    max-width: 1290px;
+  }
 }

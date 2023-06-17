@@ -1,7 +1,11 @@
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  align-items: center;
+  gap: 48px;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   color: white;
   background: #101015;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
