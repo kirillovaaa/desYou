@@ -1,0 +1,13 @@
+.header__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  background-color: #7f37f0;
+  color: white;
+  border: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 21px 16px;
+  border-radius: 4px;
+}

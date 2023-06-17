@@ -1,0 +1,12 @@
+.content__button-return {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  outline: none;
+  border: 0;
+  background: transparent;
+  color: #76767c;
+  gap: 9px;
+  width: 152px;
+  height: 48px;
+}

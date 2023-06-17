@@ -1,0 +1,12 @@
+body {
+  color: white;
+  background: #101015;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 1290px;
+  margin-left: 315px;
+}
+
+* {
+  box-sizing: border-box;
+}
