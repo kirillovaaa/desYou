@@ -1,0 +1,11 @@
+.popup__footer {
+  color: #76767c;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 39px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6.4px;
+  position: absolute;
+  bottom: 0;
+}

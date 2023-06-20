@@ -1,0 +1,10 @@
+.popup__close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: transparent;
+  display: flex;
+  padding: 20px;
+  border: 0;
+  cursor: pointer;
+}
